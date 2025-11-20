@@ -1,0 +1,95 @@
+ROCKVIEW UNIVERSITY
+Department of Computer Science
+Course Code: ICT414
+Course Title: Information Security
+Examination Type: Final Practical
+Intake: January Intake
+Term: 3
+Duration: 3 Days
+Total Marks: 100 (+10 Bonus)
+Submission: GitHub Repository
+
+PRACTICAL TITLE: WIRESHARK NETWORK ANALYSIS PRACTICAL
+
+SCENARIO:
+You are required to perform a simple network analysis using Wireshark. Your task is to capture network traffic and identify one basic HTTP request made to the website www.rocktv.app
+. This practical will help you demonstrate basic skills in traffic capture, filtering, and understanding HTTP communication.
+
+Students who include additional simple observations such as packet size comparison or identifying the HTTP request method will receive bonus marks.
+
+MAIN TASK (ONE TASK ONLY):
+
+TASK: Analyze a Simple HTTP Request Using Wireshark
+
+Capture live network traffic for 1–2 minutes.
+
+Visit the website www.rocktv.app
+ in your browser.
+
+Identify one HTTP GET request and its corresponding response.
+
+Prepare a short analysis report including:
+
+Client (source) IP address
+
+Server (destination) IP address
+
+URL requested
+
+HTTP response code
+
+Simple note on whether the request was successful or not
+
+Include one screenshot of your filtered HTTP packets.
+
+Save your capture file as: ict414_capture.pcapng
+
+Upload both your capture and report to GitHub.
+
+RULES AND INSTRUCTIONS:
+
+Only Wireshark must be used for capturing and filtering.
+
+Captured packets must be recorded by the student.
+
+Recommended filters:
+
+http
+
+ip.addr == <your IP>
+
+Screenshots must be clear.
+
+Work individually.
+
+GitHub repository must contain:
+
+report_<yourname>.pdf
+
+ict414_capture.pcapng
+
+README.md explaining steps followed
+
+GRADING RUBRIC:
+
+HTTP Request Identification..............20 Marks
+Correct Use of Filters...................15 Marks
+Basic Packet Details......................20 Marks
+Simple Performance Notes................15 Marks
+Security/Success Interpretation..........10 Marks
+Report Quality + Screenshot..............20 Marks
+BONUS: Extra Small Analysis...............+10 Marks
+
+TOTAL: 100 Marks (+10 Bonus)
+
+SUBMISSION DETAILS:
+Duration: 3 Days
+Deadline: 21/11/2025 23:59
+Submission: GitHub Repository Link
+Required Files:
+
+report_<yourname>.pdf
+
+ict414_capture.pcapng
+
+README.md
